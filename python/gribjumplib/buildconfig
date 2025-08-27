@@ -12,8 +12,6 @@
 
 NAME="gribjump"
 
-if [ "$(uname)" != "Darwin" ] ; then LIB=lib64 ; else LIB=lib ; fi
-
 CMAKE_PARAMS="-Deckit_ROOT=/tmp/gribjump/prereqs/eckitlib -Deccodes_ROOT=/tmp/gribjump/prereqs/eccodeslib -Dmetkit_ROOT=/tmp/gribjump/prereqs/metkitlib -Dfdb5_ROOT=/tmp/gribjump/prereqs/fdb5lib -DAEC_DIR=/tmp/gribjump/prereqs/eccodeslib"
 
 PYPROJECT_DIR="python/gribjumplib"
